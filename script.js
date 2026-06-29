@@ -1,15 +1,14 @@
-const box=document.querySelector('.box')
-const btn=document.querySelector('.Tglbtn')
+const box = document.querySelector("#box");
+const btn = document.querySelector("#Tglbtn");
 
+btn.addEventListener("click", function () {
+  if (box.classList.contains("light-mode")) {
+    box.classList.remove("light-mode");
+    box.classList.add("dark-mode");
+  } else {
+    box.classList.remove("dark-mode");
+    box.classList.add("light-mode");
+  }
+});
 
-btn.addEventListener('click',function(){
-    if (box.querySelector.contains('#light-mode')){
-        box.querySelector.remove('#light-mode');
-        box.querySelector.add('#dark-mode');
-    }else{
-        box.querySelector.remove('#dark-mode');
-        box.querySelector.add('#light-mode');
-    }
-})
-
-console.log("hi")
+console.log("hi");
