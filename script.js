@@ -1,13 +1,15 @@
-const box=document.querySelector('id','box')
-const btn=document.querySelector('id','Tglbtn')
+const box=document.querySelector('.box')
+const btn=document.querySelector('.Tglbtn')
 
 
 btn.addEventListener('click',function(){
-    if (box.querySelector.contains('class','light-mode')){
-        box.querySelector.remove('class','light-mode');
-        box.querySelector.add('class','dark-mode');
+    if (box.querySelector.contains('#light-mode')){
+        box.querySelector.remove('#light-mode');
+        box.querySelector.add('#dark-mode');
     }else{
-        box.querySelector.remove('class','dark-mode');
-        box.querySelector.add('class','light-mode');
+        box.querySelector.remove('#dark-mode');
+        box.querySelector.add('#light-mode');
     }
 })
+
+console.log("hi")
