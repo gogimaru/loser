@@ -1,0 +1,2 @@
+# loser
+Failed projects
