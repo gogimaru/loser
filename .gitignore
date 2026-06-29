@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.python-version
+
+# --- Node.js ---
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# --- Go ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+
+# --- VS Code ---
+.vscode/
+.history/
+*.code-workspace
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
